@@ -16,12 +16,12 @@ message = client.messages.create(
 
 print(message.sid)
 
-# numbers_to_message = ['+17608152442', '+19705316255']
+# numbers_to_message = ['+1234567890', '+1234567890']
 #
 # for number in numbers_to_message:
 #     client.messages.create(
 #         body=[birthday_wish(), birthday_advance()],
-#         from_='+12527729034',
+#         from_='+1234567890',
 #         to = number
 #     )
 #
