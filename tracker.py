@@ -35,6 +35,7 @@ df['Time'] = new[1]
 df.drop(columns=['Date'], inplace=True)
 iss = pd.DataFrame(df, columns=['Day', 'Time', 'Visible', 'Max Height', 'Appears', 'Disappears'])
 
+
 # Iterate through the DataFrame to find if tomorrow's date is included, parse row info for message composition.
 def message():
     for row_info in iss.itertuples():
