@@ -45,4 +45,4 @@ def message():
                    '.' + ' It will be visible for ' + row_info.Visible + '.'
 
 
-(message())
+message()
